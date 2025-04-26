@@ -1,5 +1,8 @@
 # React + Vite
 
+I spent approximately 16 hours completing the assessment.
+I apologize for the delay — I came across your email a bit late as I was traveling, which caused a slight extension in my timeline. Thank you for your understanding!
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
