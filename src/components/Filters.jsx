@@ -22,7 +22,7 @@ import Person2OutlinedIcon from "@mui/icons-material/Person2Outlined";
 import dayjs from "dayjs";
 import { useLocationContext } from "../context/LocationContext";
 import { useGlobalContext } from "../context/GlobalContext";
-import GetTickets from "../helper/getTickets";
+import GetTickets from "../helper/GetTickets";
 
 
 
