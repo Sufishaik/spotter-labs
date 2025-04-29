@@ -182,7 +182,7 @@ const FlightSearchBar = () => {
                 </FormControl>
             </Box>
 
-            <Box className="flex gap-5 flex-wrap sm:flex-wrap md:flex-wrap lg:flex-nowrap md:justify-center justify-center  ">
+            <Box className="flex gap-5 relative flex-wrap sm:flex-wrap md:flex-wrap lg:flex-nowrap md:justify-center justify-center  ">
                 {/* Departure and Destination */}
                 <Box className="flex items-center flex-col sm:flex-row md:flex-row lg:flex-row flex-wrap  sm:flex-nowrap md:flex-nowrap lg:flex-nowrap overflow-hidden sm:overflow-visible md:overflow-visible lg:overflow-visible">
                     <TextField
@@ -262,11 +262,12 @@ const FlightSearchBar = () => {
             {/* Search Button */}
             <Button
                 variant="contained"
-                className="absolut left-[35%] md:right-[40%] -bottom-5"
+                className="  absolute top-3/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
                 size="small"
                 sx={{
                     textTransform: "capitalize",
                     position: "absolute",
+                    // textAlign: "center",
                     px: 2,
                     borderRadius: "20px",
                     fontSize: "14px",
