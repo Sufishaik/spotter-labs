@@ -67,8 +67,9 @@ const FlightSearchBar = () => {
                 sx={{
                     display: "flex",
                     // gap: 1,
-                    // flexWrap: "wrap",
+                    flexWrap: "wrap",
                     // padding: "0px",
+                    justifyContent: "center",
                     alignItems: "center",
                     flexBasis: { xs: "100%", lg: "auto" },
                 }}
@@ -183,7 +184,7 @@ const FlightSearchBar = () => {
 
             <Box className="flex gap-5 flex-wrap sm:flex-wrap md:flex-wrap lg:flex-nowrap md:justify-center justify-center  ">
                 {/* Departure and Destination */}
-                <Box className="flex items-center overflow-hidden sm:overflow-visible md:overflow-visible lg:overflow-visible">
+                <Box className="flex items-center flex-col sm:flex-row md:flex-row lg:flex-row flex-wrap  sm:flex-nowrap md:flex-nowrap lg:flex-nowrap overflow-hidden sm:overflow-visible md:overflow-visible lg:overflow-visible">
                     <TextField
                         className="flex-1"
                         size="small"
@@ -220,7 +221,7 @@ const FlightSearchBar = () => {
                 </Box>
 
 
-                <Box className="flex items-center gap-5 overflow-hidden sm:overflow-visible md:overflow-visible lg:overflow-visible">
+                <Box className="flex flex-wrap sm:flex-wrap md:flex-nowrap lg:flex-nowrap justify-center items-center gap-5 overflow-hidden sm:overflow-visible md:overflow-visible lg:overflow-visible">
 
                     <LocalizationProvider dateAdapter={AdapterDayjs}>
                         <DatePicker
